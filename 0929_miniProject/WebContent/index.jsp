@@ -26,7 +26,6 @@
 
   <body>
 	<%@ include file = "layout/tap.jsp" %>
-	<%@ include file = "layout/login.jsp" %>
    
 
     <div class="container">
