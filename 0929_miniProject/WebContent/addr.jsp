@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*, util.DBUtil"%>
 
 <%!Connection con;
@@ -8,13 +10,13 @@
 	width="100%" bgcolor="white">
 	<%
 		String str = request.getParameter("str");
-		System.out.print(str);
+		System.out.println(str);
 		try {
 			con = DBUtil.getConnection();
 			pstmt = con.prepareStatement(sql);
 			pstmt.setString(1, str + "%");
 			rs = pstmt.executeQuery();
-
+			System.out.println(1);
 			while (rs.next()) {
 	%>
 	<tr align="center">
