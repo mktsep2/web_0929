@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,43 +42,43 @@ table, th, td {
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
         <h2 class="text-center text-lg text-uppercase my-0">About
-          <strong>Àü±âÂ÷ ÃæÀü±â Á¾·ù</strong>
+          <strong>ì „ê¸°ì°¨ ì¶©ì „ê¸° ì¢…ë¥˜</strong>
         </h2>
         <hr class="divider">
         <div class="row">
           <div id="cont_body">
 	<div class="tab_area" src = "https://ev.or.kr/portal/chargerkind?pMENUMST_ID=21629">
 		<ul>
-			<h5><li class="on"><a href="#">Àü±âÂ÷ ÃæÀü±â Á¾·ù</a></li></h5>
-			<h5><li><a href="about2.jsp">Àü±âÂ÷ ÃæÀü¿ä±Ý</a></li></h5>
+			<h5><li class="on"><a href="#">ì „ê¸°ì°¨ ì¶©ì „ê¸° ì¢…ë¥˜</a></li></h5>
+			<h5><li><a href="about2.jsp">ì „ê¸°ì°¨ ì¶©ì „ìš”ê¸ˆ</a></li></h5>
 		</ul>
 	</div><br>
 	
-	<h3>ÃæÀü¼Óµµ¿¡ µû¸¥ ºÐ·ù</h3>
+	<h3>ì¶©ì „ì†ë„ì— ë”°ë¥¸ ë¶„ë¥˜</h3>
 	<table border = "0">
 		<tr>
 			<td>
 				<dl class="dl02_blit">
-					<dt>±Þ¼Ó ÃæÀü±â</dt>
-					<dd>- ¿ÏÀü¹æÀü»óÅÂ¿¡¼­ 80%ÃæÀü±îÁö 30ºÐÀÌ ¼Ò¿äµÊ</dd>
-					<dd>- ÁÖ·Î °í¼Óµµ·Î ÈÞ°Ô¼Ò, °ø°ø±â°ü µî ¿ÜºÎÀå¼Ò¿¡ ¼³Ä¡ µÊ</dd>
-					<dd>- ÃæÀü±â´Â °í¿ë·®ÀÇ Àü·ÂÀ» °ø±ÞÇÏ¿©¾ß ÇÏ¹Ç·Î 50kW±ÞÀÌ ÁÖ·Î ¼³Ä¡µÊ</dd>
-					<dd>- »ç¿ë¿ä±ÝÀº 100km ´ç 2,700¿ø Á¤µµÀÓ</dd>
+					<dt>ê¸‰ì† ì¶©ì „ê¸°</dt>
+					<dd>- ì™„ì „ë°©ì „ìƒíƒœì—ì„œ 80%ì¶©ì „ê¹Œì§€ 30ë¶„ì´ ì†Œìš”ë¨</dd>
+					<dd>- ì£¼ë¡œ ê³ ì†ë„ë¡œ íœ´ê²Œì†Œ, ê³µê³µê¸°ê´€ ë“± ì™¸ë¶€ìž¥ì†Œì— ì„¤ì¹˜ ë¨</dd>
+					<dd>- ì¶©ì „ê¸°ëŠ” ê³ ìš©ëŸ‰ì˜ ì „ë ¥ì„ ê³µê¸‰í•˜ì—¬ì•¼ í•˜ë¯€ë¡œ 50kWê¸‰ì´ ì£¼ë¡œ ì„¤ì¹˜ë¨</dd>
+					<dd>- ì‚¬ìš©ìš”ê¸ˆì€ 100km ë‹¹ 2,700ì› ì •ë„ìž„</dd>
 				</dl>
 			</td>
 			<td>
 				<dl class="dl02_blit">
-					<dt>¿Ï¼Ó ÃæÀü±â(°³ÀÎ¿ë¿Ï¼ÓÃæÀü±â ±âÁØ)</dt>
-					<dd>- ¿ÏÀü¹æÀü¿¡¼­ ¿ÏÀüÃæÀü±îÁö 4~5½Ã°£ÀÌ ¼Ò¿äµÊ</dd>
-					<dd>- ÁÖ·Î ÁÖÅÃÀÌ³ª ¾ÆÆÄÆ®¿¡ ¼³Ä¡µÊ</dd>
-					<dd>- ¹èÅÍ¸® ¿ë·®Àº ¾à 6~7kW Àü·Â¿ë·®À» °¡Áø ÃæÀü±â°¡ ÁÖ·Î ¼³Ä¡µÊ</dd>
-					<dd>- Àü±â¿ä±ÝÀº 100km´ç, 1,100¿ø Á¤µµÀÓ</dd>
+					<dt>ì™„ì† ì¶©ì „ê¸°(ê°œì¸ìš©ì™„ì†ì¶©ì „ê¸° ê¸°ì¤€)</dt>
+					<dd>- ì™„ì „ë°©ì „ì—ì„œ ì™„ì „ì¶©ì „ê¹Œì§€ 4~5ì‹œê°„ì´ ì†Œìš”ë¨</dd>
+					<dd>- ì£¼ë¡œ ì£¼íƒì´ë‚˜ ì•„íŒŒíŠ¸ì— ì„¤ì¹˜ë¨</dd>
+					<dd>- ë°°í„°ë¦¬ ìš©ëŸ‰ì€ ì•½ 6~7kW ì „ë ¥ìš©ëŸ‰ì„ ê°€ì§„ ì¶©ì „ê¸°ê°€ ì£¼ë¡œ ì„¤ì¹˜ë¨</dd>
+					<dd>- ì „ê¸°ìš”ê¸ˆì€ 100kmë‹¹, 1,100ì› ì •ë„ìž„</dd>
 				</dl>
 			</td>
 		</tr>
 	</table>
 	
-    		<!-- <caption>±Þ/¿Ï¼ÓÃæÀü±â °ø±Þ¿ë·® ¹× ÃæÀü½Ã°£ ºñ±³</caption> -->
+    		<!-- <caption>ê¸‰/ì™„ì†ì¶©ì „ê¸° ê³µê¸‰ìš©ëŸ‰ ë° ì¶©ì „ì‹œê°„ ë¹„êµ</caption> -->
     		<colgroup>
     			<col style="width: 30%;">
     			<col style="width: 35%;">
@@ -87,27 +87,27 @@ table, th, td {
     		<thead>
     		<table bgcolor = "">
     			<tr>
-    				<th>±¸ºÐ</th>
-    				<th>±Þ¼Ó ÃæÀü±â</th>
-    				<th>¿Ï¼Ó ÃæÀü±â</th>
+    				<th>êµ¬ë¶„</th>
+    				<th>ê¸‰ì† ì¶©ì „ê¸°</th>
+    				<th>ì™„ì† ì¶©ì „ê¸°</th>
     			</tr>
     		</thead>
     		<tbody>
     			<tr>
-    				<td>°ø±Þ¿ë·®</td>
+    				<td>ê³µê¸‰ìš©ëŸ‰</td>
     				<td>50kW</td>
     				<td>3~7kW</td>
     			</tr>
     			<tr>
-    				<td>ÃæÀü½Ã°£</td>
-    				<td>15~30ºÐ</td>
-    				<td>4~5½Ã°£</td>
+    				<td>ì¶©ì „ì‹œê°„</td>
+    				<td>15~30ë¶„</td>
+    				<td>4~5ì‹œê°„</td>
     			</tr>
     		</tbody>
     	</table><br><br><br>
-    	<h3 class="mt40">¼³Ä¡À¯Çü¿¡ µû¸¥ ºÐ·ù</h3>
-    	<table class="table_02_3 mt10" summary="¼³Ä¡À¯Çü¿¡ µû¸¥ ºÐ·ù Ç¥ÀÔ´Ï´Ù" bgcolor = "white">
-    		<!-- <caption>¼³Ä¡À¯Çü¿¡ µû¸¥ ºÐ·ù Ç¥</caption> -->
+    	<h3 class="mt40">ì„¤ì¹˜ìœ í˜•ì— ë”°ë¥¸ ë¶„ë¥˜</h3>
+    	<table class="table_02_3 mt10" summary="ì„¤ì¹˜ìœ í˜•ì— ë”°ë¥¸ ë¶„ë¥˜ í‘œìž…ë‹ˆë‹¤" bgcolor = "white">
+    		<!-- <caption>ì„¤ì¹˜ìœ í˜•ì— ë”°ë¥¸ ë¶„ë¥˜ í‘œ</caption> -->
     		<colgroup>
     			<col style="width: 20%">
     			<col style="width: 30%">
@@ -116,54 +116,54 @@ table, th, td {
     		</colgroup>
     		<thead>
     			<tr>
-    				<th>±¸ºÐ</th>
-    				<th>º®ºÎÇü ÃæÀü±â</th>
-    				<th>½ºÅÄµåÇü ÃæÀü±â</th>
-    				<th>ÀÌµ¿Çü ÃæÀü±â</th>
+    				<th>êµ¬ë¶„</th>
+    				<th>ë²½ë¶€í˜• ì¶©ì „ê¸°</th>
+    				<th>ìŠ¤íƒ ë“œí˜• ì¶©ì „ê¸°</th>
+    				<th>ì´ë™í˜• ì¶©ì „ê¸°</th>
     			</tr>
     		</thead>
     		<tbody>
     			<tr>
-    				<td>¿ë·®</td>
+    				<td>ìš©ëŸ‰</td>
     				<td>3~7kW</td>
     				<td>3~7kW</td>
     				<td>3kW(Max)</td>
     			</tr>
     			<tr>
-    				<td>ÃæÀü½Ã°£</td>
-    				<td>4~6½Ã°£</td>
-    				<td>4~6½Ã°£</td>
-    				<td>6~9½Ã°£</td>
+    				<td>ì¶©ì „ì‹œê°„</td>
+    				<td>4~6ì‹œê°„</td>
+    				<td>4~6ì‹œê°„</td>
+    				<td>6~9ì‹œê°„</td>
     			</tr>
     			<tr>
-    				<td>Æ¯Â¡</td>
+    				<td>íŠ¹ì§•</td>
     				<td colspan="2">
     					<dl style="text-align:left;">
-    						<dd>- ºÐÀüÇÔ, ±âÃÊÆÐµå ¼³Ä¡</dd>
-    						<dd>- UÇüº¼¶óµå, Â÷·®½ºÅäÆÛ, Â÷¼±µµ»ö(¼³Ä¡ ¶Ç´Â ¹Ì¼³Ä¡)</dd>
-    						<dd>- ÃæÀü±â À§Ä¡°¡ ¿ÜºÎ¿¡ ¼³Ä¡µÇ¾î ´«, ºñ¿¡ ³ëÃâµÉ °æ¿ì¸¸ ÄÉ³ëÇÇ ¼³Ä¡</dd>
+    						<dd>- ë¶„ì „í•¨, ê¸°ì´ˆíŒ¨ë“œ ì„¤ì¹˜</dd>
+    						<dd>- Uí˜•ë³¼ë¼ë“œ, ì°¨ëŸ‰ìŠ¤í† í¼, ì°¨ì„ ë„ìƒ‰(ì„¤ì¹˜ ë˜ëŠ” ë¯¸ì„¤ì¹˜)</dd>
+    						<dd>- ì¶©ì „ê¸° ìœ„ì¹˜ê°€ ì™¸ë¶€ì— ì„¤ì¹˜ë˜ì–´ ëˆˆ, ë¹„ì— ë…¸ì¶œë  ê²½ìš°ë§Œ ì¼€ë…¸í”¼ ì„¤ì¹˜</dd>
     					</dl>
     				</td>
     				<td>
     					<dl style="text-align:left;">
-    						<dd>- 220V ÄÜ¼¾Æ®¿¡ °£´ÜÇÑ ½Äº°ÀåÄ¡(RFIDÅÂ±×)<br>&nbsp;&nbsp;ºÎÂøÇÏ¿© ÃæÀü</dd>
-    						<dd>- ÅÂ±×°¡ ºÎÂøµÈ ´Ù¸¥ °Ç¹°¿¡¼­µµ ÃæÀü °¡´É</dd>
+    						<dd>- 220V ì½˜ì„¼íŠ¸ì— ê°„ë‹¨í•œ ì‹ë³„ìž¥ì¹˜(RFIDíƒœê·¸)<br>&nbsp;&nbsp;ë¶€ì°©í•˜ì—¬ ì¶©ì „</dd>
+    						<dd>- íƒœê·¸ê°€ ë¶€ì°©ëœ ë‹¤ë¥¸ ê±´ë¬¼ì—ì„œë„ ì¶©ì „ ê°€ëŠ¥</dd>
     					</dl>
     				</td>
     			</tr>
     			<tr>
-    				<td>»çÁø</td>
-    				<td><img alt="º®ºÎÇü ÃæÀü±â ÀÌ¹ÌÁö" src="portal/_images/sub/chargerkd_01.jpg" width="100px"/></td>
-    				<td><img alt="½ºÅÄµåÇü ÃæÀü±â ÀÌ¹ÌÁö" src="portal/_images/sub/chargerkd_02.jpg" width="150px"/></td>
-    				<td><img alt="ÀÌµ¿Çü ÃæÀü±â ÀÌ¹ÌÁö1" src="portal/_images/sub/chargerkd_03.jpg" width="120px"/>
-    					<img alt="ÀÌµ¿Çü ÃæÀü±â ÀÌ¹ÌÁö2" src="portal/_images/sub/chargerkd_04.jpg" width="120px"/>
+    				<td>ì‚¬ì§„</td>
+    				<td><img alt="ë²½ë¶€í˜• ì¶©ì „ê¸° ì´ë¯¸ì§€" src="portal/_images/sub/chargerkd_01.jpg" width="100px"/></td>
+    				<td><img alt="ìŠ¤íƒ ë“œí˜• ì¶©ì „ê¸° ì´ë¯¸ì§€" src="portal/_images/sub/chargerkd_02.jpg" width="150px"/></td>
+    				<td><img alt="ì´ë™í˜• ì¶©ì „ê¸° ì´ë¯¸ì§€1" src="portal/_images/sub/chargerkd_03.jpg" width="120px"/>
+    					<img alt="ì´ë™í˜• ì¶©ì „ê¸° ì´ë¯¸ì§€2" src="portal/_images/sub/chargerkd_04.jpg" width="120px"/>
     				</td>
     			</tr>
     		</tbody>
     	</table><br><br>
-    	<h3 class="mt40">Àü±âÂ÷ ÃæÀü±âÄ¿³ØÅÍ ¹× Â÷·®Ãø ¼ÒÄÏ</h3>
-    	<table class="table_02_3 mt10" summary="Àü±âÂ÷ ÃæÀüÄ¿³ØÅÍ, Â÷·®¿ë¼ÒÄÏ Ç¥ ÀÔ´Ï´Ù."  bgcolor = "white">
-    		<!-- <caption>Àü±âÂ÷ ÃæÀü±âÄ¿³ØÅÍ, Â÷·®¿ë¼ÒÄÏ Ç¥</caption> -->
+    	<h3 class="mt40">ì „ê¸°ì°¨ ì¶©ì „ê¸°ì»¤ë„¥í„° ë° ì°¨ëŸ‰ì¸¡ ì†Œì¼“</h3>
+    	<table class="table_02_3 mt10" summary="ì „ê¸°ì°¨ ì¶©ì „ì»¤ë„¥í„°, ì°¨ëŸ‰ìš©ì†Œì¼“ í‘œ ìž…ë‹ˆë‹¤."  bgcolor = "white">
+    		<!-- <caption>ì „ê¸°ì°¨ ì¶©ì „ê¸°ì»¤ë„¥í„°, ì°¨ëŸ‰ìš©ì†Œì¼“ í‘œ</caption> -->
     		<colgroup>
     			<col style="width:12%">
     			<col style="width:22%">
@@ -173,55 +173,55 @@ table, th, td {
     		</colgroup>
     		<tbody>
     			<tr>
-    				<th >±¸ºÐ</th>
-    				<th >AC´Ü»ó 5ÇÉ(¿Ï¼Ó)</th>
-    				<th >AC3»ó 7ÇÉ(±Þ¼Ó/¿Ï¼Ó)</th>
-    				<th >DCÂ÷µ¥¸ð 10ÇÉ(±Þ¼Ó)</th>
-    				<th >DCÄÞº¸ 7ÇÉ(±Þ¼Ó)</th>
+    				<th >êµ¬ë¶„</th>
+    				<th >ACë‹¨ìƒ 5í•€(ì™„ì†)</th>
+    				<th >AC3ìƒ 7í•€(ê¸‰ì†/ì™„ì†)</th>
+    				<th >DCì°¨ë°ëª¨ 10í•€(ê¸‰ì†)</th>
+    				<th >DCì½¤ë³´ 7í•€(ê¸‰ì†)</th>
     			</tr>
     			<tr>
-    				<td>ÃæÀü±âÄ¿³ØÅÍ</td>
+    				<td>ì¶©ì „ê¸°ì»¤ë„¥í„°</td>
     				<td>
-    				  <img alt="AC(5pin) ÃæÀü±âÄ¿³ØÅÍ" src="portal/_images/sub/ac5con.jpg" width="100%">
+    				  <img alt="AC(5pin) ì¶©ì „ê¸°ì»¤ë„¥í„°" src="portal/_images/sub/ac5con.jpg" width="100%">
     				</td>
     				<td>
-    				  <img alt="AC(7pin) ÃæÀü±âÄ¿³ØÅÍ" src="portal/_images/sub/ac7con.jpg" width="100%">
+    				  <img alt="AC(7pin) ì¶©ì „ê¸°ì»¤ë„¥í„°" src="portal/_images/sub/ac7con.jpg" width="100%">
     				</td>
     				<td>
-    				  <img alt="DC(10pin) ÃæÀü±âÄ¿³ØÅÍ" src="portal/_images/sub/dc10con.jpg" width="100%">
+    				  <img alt="DC(10pin) ì¶©ì „ê¸°ì»¤ë„¥í„°" src="portal/_images/sub/dc10con.jpg" width="100%">
     				</td>
     				<td>
-    				  <img alt="DC(7pin) ÃæÀü±âÄ¿³ØÅÍ" src="portal/_images/sub/dc7con.jpg" width="100%">
-    				</td>
-    			</tr>
-    			<tr>
-    			    <td>Â÷·®Ãø ¼ÒÄÏ</td>
-    				<td>
-    				  <img alt="AC(5pin) Â÷·®¼ÒÄÏ" src="portal/_images/sub/ac5car.jpg" width="100%">
-    				</td>
-    				<td>
-    				  <img alt="AC(7pin) Â÷·®¼ÒÄÏ" src="portal/_images/sub/ac7car.jpg" width="100%">
-    				</td>
-    				<td>
-    				  <img alt="DC(10pin) Â÷·®¼ÒÄÏ" src="portal/_images/sub/dc10car.jpg" width="100%">
-    				</td>
-    				<td>
-    				  <img alt="DC(7pin) Â÷·®¼ÒÄÏ" src="portal/_images/sub/dc7car.jpg" width="100%">
+    				  <img alt="DC(7pin) ì¶©ì „ê¸°ì»¤ë„¥í„°" src="portal/_images/sub/dc7con.jpg" width="100%">
     				</td>
     			</tr>
     			<tr>
-    				<td>°¡´ÉÂ÷Á¾</td>
-    				<td>ºí·ç¿Â, ·¹ÀÌ, ½î¿ï, ¾ÆÀÌ¿À´Ð,<br /> ½ºÆÄÅ©, i3, Leaf, º¼Æ®</td>
+    			    <td>ì°¨ëŸ‰ì¸¡ ì†Œì¼“</td>
+    				<td>
+    				  <img alt="AC(5pin) ì°¨ëŸ‰ì†Œì¼“" src="portal/_images/sub/ac5car.jpg" width="100%">
+    				</td>
+    				<td>
+    				  <img alt="AC(7pin) ì°¨ëŸ‰ì†Œì¼“" src="portal/_images/sub/ac7car.jpg" width="100%">
+    				</td>
+    				<td>
+    				  <img alt="DC(10pin) ì°¨ëŸ‰ì†Œì¼“" src="portal/_images/sub/dc10car.jpg" width="100%">
+    				</td>
+    				<td>
+    				  <img alt="DC(7pin) ì°¨ëŸ‰ì†Œì¼“" src="portal/_images/sub/dc7car.jpg" width="100%">
+    				</td>
+    			</tr>
+    			<tr>
+    				<td>ê°€ëŠ¥ì°¨ì¢…</td>
+    				<td>ë¸”ë£¨ì˜¨, ë ˆì´, ì˜ìš¸, ì•„ì´ì˜¤ë‹‰,<br /> ìŠ¤íŒŒí¬, i3, Leaf, ë³¼íŠ¸</td>
     				<td>SM3</td>
-    				<td>ºí·ç¿Â, ·¹ÀÌ, ½î¿ï, <br /> ¾ÆÀÌ¿À´Ð,Leaf</td>
-    				<td>½ºÆÄÅ©, º¼Æ®, ¾ÆÀÌ¿À´Ð, i3</td>
+    				<td>ë¸”ë£¨ì˜¨, ë ˆì´, ì˜ìš¸, <br /> ì•„ì´ì˜¤ë‹‰,Leaf</td>
+    				<td>ìŠ¤íŒŒí¬, ë³¼íŠ¸, ì•„ì´ì˜¤ë‹‰, i3</td>
     			</tr>
 
     		</tbody>
     	</table><br><br>
-    	<h3 class="mt40">Àü±âÂ÷ Â÷Á¾º° ÃæÀü¹æ½Ä</h3>
-    	<table class="table_02_3 mt10" summary="Àü±âÂ÷ Â÷Á¾º° ÃæÀü¹æ½Ä Ç¥ ÀÔ´Ï´Ù."  bgcolor = "white">
-    		<!-- <caption>Àü±âÂ÷ Â÷Á¾º° ÃæÀü¹æ½Ä Ç¥</caption> -->
+    	<h3 class="mt40">ì „ê¸°ì°¨ ì°¨ì¢…ë³„ ì¶©ì „ë°©ì‹</h3>
+    	<table class="table_02_3 mt10" summary="ì „ê¸°ì°¨ ì°¨ì¢…ë³„ ì¶©ì „ë°©ì‹ í‘œ ìž…ë‹ˆë‹¤."  bgcolor = "white">
+    		<!-- <caption>ì „ê¸°ì°¨ ì°¨ì¢…ë³„ ì¶©ì „ë°©ì‹ í‘œ</caption> -->
     		<colgroup>
     			<col style="width:25%">
     			<col style="width:25%">
@@ -230,47 +230,47 @@ table, th, td {
     		</colgroup>
     		<tbody>
     			<tr>
-    				<th rowspan="2">±¸ºÐ</th>
-    				<th rowspan="2">Â÷Á¾</th>
-    				<th colspan="2">ÃæÀü¹æ½Ä</th>
+    				<th rowspan="2">êµ¬ë¶„</th>
+    				<th rowspan="2">ì°¨ì¢…</th>
+    				<th colspan="2">ì¶©ì „ë°©ì‹</th>
     			</tr>
     			<tr>
-    				<td style="height:25px; background:#fafafa; font-size:16px;">±Þ¼Ó</td>
-    				<td style="height:25px; background:#fafafa; font-size:16px;">¿Ï¼Ó</td>
+    				<td style="height:25px; background:#fafafa; font-size:16px;">ê¸‰ì†</td>
+    				<td style="height:25px; background:#fafafa; font-size:16px;">ì™„ì†</td>
     			</tr>
     			<tr>
-    				<td rowspan='2'>Çö´ë±â¾ÆÂ÷</td>
-    				<td>ºí·ç¿Â/·¹ÀÌ/½î¿ï/¾ÆÀÌ¿À´Ð</td>
-    				<td>DCÂ÷µ¥¸ð(10pin)</td>
-    				<td rowspan='2'>AC ´Ü»ó(5pin)</td>
+    				<td rowspan='2'>í˜„ëŒ€ê¸°ì•„ì°¨</td>
+    				<td>ë¸”ë£¨ì˜¨/ë ˆì´/ì˜ìš¸/ì•„ì´ì˜¤ë‹‰</td>
+    				<td>DCì°¨ë°ëª¨(10pin)</td>
+    				<td rowspan='2'>AC ë‹¨ìƒ(5pin)</td>
     			</tr>
     			<tr>
-    				<td>¾ÆÀÌ¿À´Ð</td>
-    				<td>DCÄÞº¸ 7ÇÉ(±Þ¼Ó)</td>
+    				<td>ì•„ì´ì˜¤ë‹‰</td>
+    				<td>DCì½¤ë³´ 7í•€(ê¸‰ì†)</td>
     			</tr>
     			<tr>
-    				<td>¸£³ë»ï¼º</td>
+    				<td>ë¥´ë…¸ì‚¼ì„±</td>
     				<td>SM3 ZE</td>
-    				<td>AC3»ó(7pin)</td>
-    				<td>AC ´Ü»ó(7pin)</td>
+    				<td>AC3ìƒ(7pin)</td>
+    				<td>AC ë‹¨ìƒ(7pin)</td>
     			</tr>
     			<tr>
-    				<td>ÇÑ±¹GM</td>
-    				<td>½ºÆÄÅ©/º¼Æ®</td>
-    				<td>DCÄÞº¸(7pin)</td>
-    				<td>AC ´Ü»ó(5pin)</td>
+    				<td>í•œêµ­GM</td>
+    				<td>ìŠ¤íŒŒí¬/ë³¼íŠ¸</td>
+    				<td>DCì½¤ë³´(7pin)</td>
+    				<td>AC ë‹¨ìƒ(5pin)</td>
     			</tr>
     			<tr>
     				<td>BMW</td>
     				<td>i3</td>
-    				<td>DCÄÞº¸(7pin)</td>
-    				<td>AC ´Ü»ó(5pin)</td>
+    				<td>DCì½¤ë³´(7pin)</td>
+    				<td>AC ë‹¨ìƒ(5pin)</td>
     			</tr>
     			<tr>
-    				<td>´Ö»ê</td>
+    				<td>ë‹›ì‚°</td>
     				<td>Leaf</td>
-    				<td>DCÂ÷µ¥¸ð(10pin)</td>
-    				<td>AC ´Ü»ó(5pin)</td>
+    				<td>DCì°¨ë°ëª¨(10pin)</td>
+    				<td>AC ë‹¨ìƒ(5pin)</td>
     			</tr>
     		</tbody>
     	</table>
@@ -278,7 +278,7 @@ table, th, td {
     	
     	<!-- 
     	<dl>
-    		<dt><img alt="AC(5pin)/AC(7pin)/DCÂ÷µ¥¸ð(10pin)/DCÄÞº¸(7pin) Àü±âÂ÷ ÃæÀü±â ÀÌ¹ÌÁö" src="/portal/_images/sub/chargersys.jpg" width="100%"></dt>
+    		<dt><img alt="AC(5pin)/AC(7pin)/DCì°¨ë°ëª¨(10pin)/DCì½¤ë³´(7pin) ì „ê¸°ì°¨ ì¶©ì „ê¸° ì´ë¯¸ì§€" src="/portal/_images/sub/chargersys.jpg" width="100%"></dt>
     	</dl>
     	-->
 

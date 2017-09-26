@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>${sessionScope.vo}</h2>
+	<button onclick="checkLogin()">정상완료</button>
 </body>
 </html>

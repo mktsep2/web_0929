@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +25,7 @@
   </head>
 
   <body>
+  <script type="text/javascript" src='script/httpRequest.js'></script>
 	<%@ include file = "layout/tap.jsp" %>
    
 
@@ -115,7 +116,29 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+	function view(a){
+		sendRequest("info",'command='+a+'&id='+(id.value)+'&password='+(password.value)+'&name='+(mname.value)+'&tel='+(tel.value)+'&mail='+(mail.value), userinfo, 'GET');
+	}
+	function userinfo(){
+		if(httpRequest.readyState==4&&httpRequest.status==200){
+			alert(httpRequest.response);
+			s.innerHTML=httpRequest.responseText;
+		}
+	}
+	function checkLogin(){
+		window.location.reload();
+	}
+	
+	function update(){
+			sendRequest("userInfo/update.jsp", null, viewuser, 'get');	
+	} 
+	function viewuser(){
+		if(httpRequest.readyState==4 && httpRequest.status==200){
+			a.innerHTML=httpRequest.responseText;
+		}
+	}
 
+</script> 
   </body>
-
 </html>

@@ -1,3 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+ 
  <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Electric Motor Vehicle</div>
     <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">151, Gasan digital 1-ro | Geumcheon-gu | 08506</div>
 
@@ -32,35 +36,41 @@
       </div>
     </nav>
 <!--    <div class="modal fade bd-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true"> -->
+
+<!--로그인 모달 and 비동기 회원가입 시도  -->
+
 <div class="modal fade bd-example-modal-c" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
  
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
-					<li class="nav-item"><a class="nav-link active" id="home-tab"	data-toggle="tab" href="#signin" role="tab" aria-controls="home"aria-expanded="true">Log-in</a></li>
-					<li class="nav-item"><a class="nav-link" id="profile-tab" data-toggle="tab" href="#siginup" role="tab"aria-controls="profile">Sign-up</a></li>
+					<li class="nav-item"><a class="nav-link active" id="home-tab"data-toggle="tab" href="#signin" role="tab" aria-controls="home"aria-expanded="true">Log-in</a></li>
+					<li class="nav-item"><a class="nav-link" id="profile-tab" data-toggle="tab" href="#signup" role="tab" aria-controls="profile">Sign-up</a></li>
 				</ul>
 	<div class="modal-body">
         <div id="myTabContent" class="tab-content">
-        <div class="tab-pane fade show active " id="signin" role="tabpanel" aria-labelledby="home-tab">
-							<form class="form-horizontal" action="info" method='GET'>
-									<input type="hidden" name="command" value="login">
-									<label><b>Username</b></label>
-									<input type="text" placeholder="Enter Username" name="id" required><br> 
-									<label><b>Password</b></label>
-									<input type="password" placeholder="Enter Password"  name="password" required><br>
-									<button type="submit">Login</button>
-							</form>
-						</div>
-						<div class="tab-pane fade" id="signup" role="tablpanel"
-							aria-labelledby="profile-tab">
-							<form class="form-horizontal">
-								<input type="text"> 
-								<input type="password"> 
-								<input type="submit">
-							</form>
+					<div class="tab-pane fade show active " id="signin" role="tabpanel"
+						aria-labelledby="home-tab">
+					<div class="container">	
+					<form action="info" method='post'>
+						<input type="hidden" name="command" value="login">
+						id:<input type="text" name="id"><br> 
+						pw:<input type="password" name="password"><br>
+						<input type="submit" value="Login">
+						</form>
 						</div>
 					</div>
+					<div class="tab-pane fade" id="signup" role="tablpanel" aria-labelledby="profile-tab">
+						<div id='s'>
+							id:<input id='id' type="text"><br> pw:<input
+								id='password' type="password"><br> name:<input
+								type="text" id="mname"><br> tel:<input type="tel"
+								placeholder="00*-000*-0000" id="tel"><br> email:<input
+								type="email" id="mail" value="1@1.1">
+							<button onclick="view(this.value)" value='check'>회원등록</button>
+						</div>
+					</div>
+				</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -68,4 +78,3 @@
     </div>
   </div>
 </div>
- 
