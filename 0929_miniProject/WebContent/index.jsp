@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <script src = "script/httpRequest.js"></script>
@@ -25,12 +25,13 @@
   </head>
 
   <body>
+  <script type="text/javascript" src='script/httpRequest.js'></script>
 	<%@ include file = "layout/tap.jsp" %>
     <div class="container">
       <div class="bg-faded p-4 my-4">
        <hr class="divider">
        <h2 class="text-center text-lg text-uppercase my-0">SEARCH
-       <strong>ÃæÀü¼Ò</strong>
+       <strong>ì¶©ì „ì†Œ</strong>
        </h2>
        <hr class="divider">
         
@@ -52,7 +53,7 @@
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
         <h2 class="text-center text-lg text-uppercase my-0">CHECK
-          <strong>Áöµµ</strong>
+          <strong>ì§€ë„</strong>
         </h2>
         <hr class="divider">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
@@ -73,8 +74,9 @@
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript">
+
     function sidoSearch() {
-    	str =  '<span style="font-weight: bolder;font: 14px;">½Ã/µµ ¼±ÅÃ</span><br style="line-height: 1.5;"><select id="sido" style="margin-left: 5px;" title="½Ãµµ ¼±ÅÃ" name="sido"><option value="">ÀüÃ¼</option><option value="°­¿ø">°­¿øµµ</option><option value="°æ±â">°æ±âµµ</option><option value="°æ»ó³²">°æ»ó³²µµ</option><option value="°æ»óºÏ">°æ»óºÏµµ</option><option value="±¤ÁÖ">±¤ÁÖ±¤¿ª½Ã</option><option value="´ë±¸">´ë±¸±¤¿ª½Ã</option><option value="´ëÀü">´ëÀü±¤¿ª½Ã</option><option value="ºÎ»ê">ºÎ»ê±¤¿ª½Ã</option><option value="¼­¿ï">¼­¿ïÆ¯º°½Ã</option><option value="¿ï»ê">¿ï»ê±¤¿ª½Ã</option><option value="ÀÎÃµ">ÀÎÃµ±¤¿ª½Ã</option><option value="Àü¶ó³²">Àü¶ó³²µµ</option><option value="Àü¶óºÏ">Àü¶óºÏµµ</option><option value="Á¦ÁÖ">Á¦ÁÖµµ</option><option value="ÃæÃ»³²">ÃæÃ»³²µµ</option><option value="ÃæÃ»ºÏ">ÃæÃ»ºÏµµ</option></select><button id="sidoBtn" onClick = "csidSearch()">Á¶È¸</button>';
+    	str =  '<span style="font-weight: bolder;font: 14px;">ì‹œ/ë„ ì„ íƒ</span><br style="line-height: 1.5;"><select id="sido" style="margin-left: 5px;" title="ï¿½Ãµï¿½ ï¿½ï¿½ï¿½ï¿½" name="sido"><option value="">ï¿½ï¿½Ã¼</option><option value="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</option><option value="ï¿½ï¿½ï¿½">ï¿½ï¿½âµµ</option><option value="ï¿½ï¿½ï¿½">ï¿½ï¿½ó³²µï¿½</option><option value="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½Ïµï¿½</option><option value="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½</option><option value="ï¿½ë±¸">ï¿½ë±¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</option><option value="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</option><option value="ï¿½Î»ï¿½">ï¿½Î»ê±¤ï¿½ï¿½ï¿½ï¿½</option><option value="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½Æ¯ï¿½ï¿½ï¿½ï¿½</option><option value="ï¿½ï¿½ï¿½">ï¿½ï¿½ê±¤ï¿½ï¿½ï¿½ï¿½</option><option value="ï¿½ï¿½Ãµ">ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</option><option value="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ó³²µï¿½</option><option value="ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½Ïµï¿½</option><option value="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½Öµï¿½</option><option value="ï¿½ï¿½Ã»ï¿½ï¿½">ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½</option><option value="ï¿½ï¿½Ã»ï¿½ï¿½">ï¿½ï¿½Ã»ï¿½Ïµï¿½</option></select><button id="sidoBtn" onClick = "csidSearch()">ï¿½ï¿½È¸</button>';
     	document.getElementById("sidoSearch").innerHTML = str;
     	document.getElementById("cpidTitle").innerHTML = "";
 		document.getElementById("cpidSearch").innerHTML = "";
@@ -88,7 +90,7 @@
     function responseCsid(){
 		if(httpRequest.readyState == 4 && httpRequest.status == 200) {
 			data = httpRequest.responseText;
-			data += '<br><button id="sidoBtn" onClick = "sidoSearch()">½Ã/µµ ´Ù½Ã ¼±ÅÃÇÏ±â</button>';
+			data += '<br><button id="sidoBtn" onClick = "sidoSearch()">ì‹œ/ë„ ë‹¤ì‹œ ì„ íƒ</button>';
 			document.getElementById("sidoSearch").innerHTML = data;
 		}
 	}
@@ -99,14 +101,33 @@
     
     function responseCpid(){
   		if(httpRequest.readyState == 4 && httpRequest.status == 200) {
-  			base = '<br><hr class="divider"><h2 class="text-center text-lg text-uppercase my-0">CHECK<strong> ÃæÀü±â</strong></h2><hr class="divider">';
+  			base = '<br><hr class="divider"><h2 class="text-center text-lg text-uppercase my-0">CHECK<strong> ì¶©ì „ê¸°</strong></h2><hr class="divider">';
   			data = httpRequest.responseText;
   			document.getElementById("cpidTitle").innerHTML = base;
   			document.getElementById("cpidSearch").innerHTML = data;
   		}
   	}
+    function view(a){
+		sendRequest("info",'command='+a+'&id='+(id.value)+'&password='+(password.value)+'&name='+(mname.value)+'&tel='+(tel.value)+'&mail='+(mail.value), userinfo, 'GET');
+	}
+	function userinfo(){
+		if(httpRequest.readyState==4&&httpRequest.status==200){
+			alert(httpRequest.response);
+			s.innerHTML=httpRequest.responseText;
+		}
+	}
+	function checkLogin(){
+		window.location.reload();
+	}
+	
+	function update(){
+			sendRequest("userInfo/update.jsp", null, viewuser, 'get');	
+	} 
+	function viewuser(){
+		if(httpRequest.readyState==4 && httpRequest.status==200){
+			a.innerHTML=httpRequest.responseText;
+		}
+	}
     </script>
-
   </body>
-
 </html>

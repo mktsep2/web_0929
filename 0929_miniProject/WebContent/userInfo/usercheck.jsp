@@ -35,8 +35,7 @@
 		<input type="hidden" id="tel" value="${sessionScope.vo.tel}">
 		<input type="hidden" id="mail" value="${sessionScope.vo.email}">
 	</table>
-	<button onclick="update()">수정</button>
-	<span><button onclick="view(this.value)" value="insert">확인</button></span>
+	<span><button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="location.href='userlog.jsp'" >수정완료</button></span>
 	</div>
 
 
