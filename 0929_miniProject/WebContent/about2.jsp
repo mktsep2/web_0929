@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,7 +47,7 @@ table, th, td {
 		<div class="bg-faded p-4 my-4">
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0">
-				About <strong>전기차 충전요금</strong>
+				About <strong>전기차 충전요금</strong>
 			</h2>
 			<hr class="divider">
 			<div class="row">
@@ -59,14 +59,14 @@ table, th, td {
 								<li><a href="about.jsp">전기차 충전기 종류</a></li>
 							</h5>
 							<h5>
-								<li class="on"><a href="#">전기차 충전요금</a></li>
+								<li class="on"><a href="#">전기차 충전요금</a></li>
 							</h5>
 						</ul>
 					</div>
 					<br>
 
 					<div class="intro_cont">
-						<h3>내연기관차 유류비와 전기차 충전요금 비교</h3>
+						<h3>내연기관차 유류비와 전기차 충전요금 비교</h3><br>
 						<table class="table_02_3 mt10" summary="내연기관차 유류비와 전기차 충전요금 비교 표"
 							bgcolor="white">
 							<!-- <caption>내연기관차 유류비와 전기차 충전요금 비교</caption> -->
@@ -143,32 +143,10 @@ table, th, td {
 							</tbody>
 						</table>
 						<dl>
-							<dd class="txtBox">※ 유류비는 '17.1.6 전국 평균가격 적용</dd>
-							<dd class="txtBox">* 연간 13,724km 주행 기준('14, 교통안전공단 승용차
-								평균주행거리 적용)</dd>
-						</dl>
-						<br>
-
-						<dl>
-							<dd>
-								<h3 class="mt40" style="margin-bottom: 0px;">주행거리별 5년간 총
-									비용(차량구매가격+연료비)</h3>
-							</dd>
-							<dd style="text-align: right;">(단위 : 원)</dd>
-						</dl>
-						<table class="table_02_3" summary="주행거리별 5년간 총 연료비"
-							bgcolor="white">
-							<!-- <caption>주행거리별 5년간 총 비용</caption> -->
-							<colgroup>
-								<col style="width: *;" />
-								<col style="width: 28%;" />
-								<col style="width: 28%;" />
-								<col style="width: 28%;" />
-							</colgroup>
 							<thead>
 								<dd class="txtBox">※ 유류비는 '17.1.6 전국 평균가격 적용</dd>
 								<dd class="txtBox">* 연간 13,724km 주행 기준('14, 교통안전공단 승용차
-									평균주행거리 적용)</dd>
+									평균주행거리 적용)</dd><br>
 								</dl>
 
 								<dl>
