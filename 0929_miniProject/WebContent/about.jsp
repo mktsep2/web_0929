@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,58 +34,28 @@ table, th, td {
 </style>
   </head>
 
-  <body algin = "center">
-
-    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Electric Motor Vehicle</div>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">151, Gasan digital 1-ro | Geumcheon-gu | 08506</div>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
-      <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Electric Motor Vehicle</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<body algin = "center">
+<%@ include file = "layout/tap.jsp" %>
 
     <div class="container">
 
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
         <h2 class="text-center text-lg text-uppercase my-0">About
-          <strong>전기차 충전요금</strong>
+          <strong>전기차 충전요금</strong>
         </h2>
         <hr class="divider">
         <div class="row">
           <div id="cont_body">
 	<div class="tab_area" src = "https://ev.or.kr/portal/chargerkind?pMENUMST_ID=21629">
 		<ul>
-			<h5><li><a href="about.html">전기차 충전기 종류</a></li></h5>
-			<h5><li class="on"><a href="#">전기차 충전요금</a></li></h5>
+			<h5><li><a href="about.jsp">전기차 충전기 종류</a></li></h5>
+			<h5><li class="on"><a href="#">전기차 충전요금</a></li></h5>
 		</ul>
 	</div><br>
 	
 	<div class="intro_cont">
-    	<h3>내연기관차 유류비와 전기차 충전요금 비교</h3>
+    	<h3>내연기관차 유류비와 전기차 충전요금 비교</h3>
 		<table class="table_02_3 mt10" summary="내연기관차 유류비와 전기차 충전요금 비교 표" bgcolor = "white">
 			<!-- <caption>내연기관차 유류비와 전기차 충전요금 비교</caption> -->
 			<colgroup>
@@ -153,6 +125,23 @@ table, th, td {
 			<dd class="txtBox">※ 유류비는 '17.1.6 전국 평균가격 적용</dd>
 			<dd class="txtBox">* 연간 13,724km 주행 기준('14, 교통안전공단 승용차 평균주행거리 적용)</dd>
 		</dl><br>
+
+		<dl>
+			<dd><h3 class="mt40" style="margin-bottom: 0px;">주행거리별 5년간 총 비용(차량구매가격+연료비)</h3></dd>
+			<dd style="text-align:right;">(단위 : 원)</dd>
+		</dl>
+		<table class="table_02_3" summary="주행거리별 5년간 총 연료비" bgcolor = "white">
+			<!-- <caption>주행거리별 5년간 총 비용</caption> -->
+			<colgroup>
+				<col style="width:*;" />
+				<col style="width:28%;" />
+				<col style="width:28%;" />
+				<col style="width:28%;" />
+			</colgroup>
+			<thead>
+				<dd class="txtBox">※ 유류비는 '17.1.6 전국 평균가격 적용</dd>
+			<dd class="txtBox">* 연간 13,724km 주행 기준('14, 교통안전공단 승용차 평균주행거리 적용)</dd>
+		</dl>
 
 		<dl>
 			<dd><h3 class="mt40" style="margin-bottom: 0px;">주행거리별 5년간 총 비용(차량구매가격+연료비)</h3></dd>
@@ -247,5 +236,4 @@ table, th, td {
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
   </body>
-
 </html>
