@@ -17,7 +17,9 @@ import dto.CPVo;
 @WebServlet("/cpInfo")
 public class CPInfo extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
 		int csid=Integer.parseInt(request.getParameter("csid"));
+		
 		ArrayList<CPVo> list = null;
 		String url = null;
 		

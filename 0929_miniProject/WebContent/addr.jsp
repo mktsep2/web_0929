@@ -1,3 +1,5 @@
+<%@page import="dto.CSVo"%>
+<%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*, util.DBUtil"%>
@@ -10,26 +12,21 @@
 	width="100%" bgcolor="white">
 	<%
 		String str = request.getParameter("str");
-		System.out.println(str);
 		try {
 			con = DBUtil.getConnection();
 			pstmt = con.prepareStatement(sql);
 			pstmt.setString(1, str + "%");
 			rs = pstmt.executeQuery();
-			System.out.println(1);
+			String val="";
+			
 			while (rs.next()) {
+				val=rs.getString("CSID")+"/"+rs.getString("LAT")+"/"+rs.getString("LONGI");
 	%>
+	<!--radio버튼-->
 	<tr align="center">
-		<td><input type="radio" name="r" value=<%=rs.getString("CSID")%>
+		<td><input type="radio" name="r" value=<%=val%>
 			onChange="cpidSearch(this.value)"><%=rs.getString("ADDR")%><br></td>
 	</tr>
-	<%
-		rs.getString("CSID");
-				rs.getString("CSNM");
-				rs.getString("ADDR");
-				rs.getString("LAT");
-				rs.getString("LONGI");
-	%>
 	<%
 		} //end while
 		} catch (Exception e) {
