@@ -115,9 +115,8 @@
 	}
     
     function cpidSearch(data){
+    	fnMove('map');
     	var arr=data.split("/");
-    	lat=arr[1];
-    	logi=arr[2];
       	change(arr[1],arr[2]);
     	sendRequest("cpInfo", "csid=" +arr[0]+"&lat="+arr[1]+"&logi="+arr[2], responseCpid, "get");
     }
@@ -151,10 +150,10 @@
 			a.innerHTML=httpRequest.responseText;
 		}
 	}
-	function scrollWin() {
-	    window.scrollTo(0,0);
-	}
-
+    function fnMove(seq){
+        var offset = $("#"+seq).offset();
+        $('html, body').animate({scrollTop : offset.top}, 200);
+    }
 
     </script>
   </body>

@@ -36,7 +36,7 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
-              <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.479021, 126.881071&amp;spn=37.479021, 126.881071&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+              <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.479021, 126.881071&amp;spn=37.479021, 126.881071&amp;t=m&amp;z=16&amp;output=embed"></iframe>
             </div>
           </div>
           <div class="col-lg-4">
@@ -44,7 +44,7 @@
             <div class="mb-4">123.456.7890</div>
             <h5 class="mb-0">Email:</h5>
             <div class="mb-4">
-              <a href="mailto:name@example.com">tnsrb@naver.com</a><br>
+              <a href="mailto:name@example.com">tnsr0124b@naver.com</a><br>
               <a href="mailto:name@example.com">mktsep2@naver.com</a>
             </div>
             <h5 class="mb-0">Address:</h5>
